@@ -65,7 +65,8 @@ function App() {
           <Route exact path="/About"
           element={< About mode = {mode} />}>
           </Route>
-          <Route exact path="/Wordle"element={<Wordle showAlert={showAlert} mode={mode} />}></Route>
+          <Route exact path="/Wordle"element={<Wordle showAlert={showAlert} mode={mode} />}>
+          </Route>
             <Route exact path="/"
               element={<Textform showAlert={showAlert} Heading="Enter the Text to analyze below" mode={mode} />}>
             </Route>
