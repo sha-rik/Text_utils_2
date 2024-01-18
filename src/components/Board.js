@@ -12,6 +12,7 @@ function Board(props) {
                 <Letter className="letter" letterPos={2} attemptVal={0}/>
                 <Letter className="letter" letterPos={3} attemptVal={0}/>
                 <Letter className="letter" letterPos={4} attemptVal={0}/>
+                {/* checking */}
             </div>
             <div className='row'>
                 <Letter className="letter" letterPos={0} attemptVal={1}/>
